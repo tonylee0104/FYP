@@ -1,0 +1,192 @@
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:[m[K In member function ‘[01m[Kvoid PoseController::control_loop()[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:59:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[KEigen::Matrix3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 3>[m[K’})
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - [01;31m[K* R_bw_[m[K * mass_ * g;
+      |                                                           [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:19[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, T> > >::value>::type>, const Derived, const typename Eigen::internal::plain_constant_type<Derived, typename Eigen::internal::promote_scalar_arg<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<typename Eigen::internal::traits<T>::Scalar, T, Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, T> > >::value>::type>::type> Eigen::MatrixBase<Derived>::operator*(const T&) const [with T = T; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+   50 | EIGEN_MAKE_SCALAR_BINARY_OP([01;36m[Koperator[m[K*,product)
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Macros.h:1365:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP_ONTHERIGHT[m[K’
+ 1365 |   ([01;36m[KMETHOD[m[K)(const T& scalar) const { \
+      |    [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K’
+   50 | [01;36m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K(operator*,product)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:29:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+   50 | EIGEN_MAKE_SCALAR_BINARY_OP([01;36m[Koperator[m[K*,product)
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Macros.h:1365:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP_ONTHERIGHT[m[K’
+ 1365 |   ([01;36m[KMETHOD[m[K)(const T& scalar) const { \
+      |    [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K’
+   50 | [01;36m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K(operator*,product)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> const Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = OtherDerived; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+  166 |     [01;36m[Koperator[m[K*(const MatrixBase<OtherDerived> &other) const;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:185:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DiagonalDerived> const Eigen::Product<Derived, OtherDerived, 1> Eigen::MatrixBase<Derived>::operator*(const Eigen::DiagonalBase<DiagonalDerived>&) const [with DiagonalDerived = DiagonalDerived; Derived = Eigen::Matrix<double, 3, 3>][m[K’
+  185 |     [01;36m[Koperator[m[K*(const DiagonalBase<DiagonalDerived> &diagonal) const;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:185:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  392 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 3>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+  401 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 3>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+  410 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:19[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::promote_scalar_arg<double, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, double, Eigen::internal::scalar_product_op<T, double> > >::value>::type, double>, const typename Eigen::internal::plain_constant_type<Eigen::Matrix<double, 3, 3>, typename Eigen::internal::promote_scalar_arg<double, T, Eigen::internal::has_ReturnType<Eigen::ScalarBinaryOpTraits<T, double, Eigen::internal::scalar_product_op<T, double> > >::value>::type>::type, const Eigen::Matrix<double, 3, 3> > Eigen::operator*(const T&, const StorageBaseType&)[m[K’
+   50 | EIGEN_MAKE_SCALAR_BINARY_OP([01;36m[Koperator[m[K*,product)
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Macros.h:1374:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP_ONTHELEFT[m[K’
+ 1374 |   ([01;36m[KMETHOD[m[K)(const T& scalar, const StorageBaseType& matrix) { \
+      |    [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K’
+   50 | [01;36m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K(operator*,product)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:29:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+   50 | EIGEN_MAKE_SCALAR_BINARY_OP([01;36m[Koperator[m[K*,product)
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Macros.h:1374:4:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP_ONTHELEFT[m[K’
+ 1374 |   ([01;36m[KMETHOD[m[K)(const T& scalar, const StorageBaseType& matrix) { \
+      |    [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K’
+   50 | [01;36m[KEIGEN_MAKE_SCALAR_BINARY_OP[m[K(operator*,product)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:326[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:515:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MatrixDerived, class PermutationDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::PermutationBase<PermutationDerived>&)[m[K’
+  515 | [01;36m[Koperator[m[K*(const MatrixBase<MatrixDerived> &matrix,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:515:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:326[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:527:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PermutationDerived, class MatrixDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::PermutationBase<PermutationDerived>&, const Eigen::MatrixBase<U>&)[m[K’
+  527 | [01;36m[Koperator[m[K*(const PermutationBase<PermutationDerived> &permutation,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:527:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 3>[m[K’} is not derived from ‘[01m[Kconst Eigen::PermutationBase<PermutationDerived>[m[K’
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:327[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:313:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MatrixDerived, class TranspositionsDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::TranspositionsBase<TranspositionsDerived>&)[m[K’
+  313 | [01;36m[Koperator[m[K*(const MatrixBase<MatrixDerived> &matrix,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:313:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:327[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:325:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class TranspositionsDerived, class MatrixDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::TranspositionsBase<TranspositionsDerived>&, const Eigen::MatrixBase<U>&)[m[K’
+  325 | [01;36m[Koperator[m[K*(const TranspositionsBase<TranspositionsDerived> &transpositions,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:325:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 3>[m[K’} is not derived from ‘[01m[Kconst Eigen::TranspositionsBase<TranspositionsDerived>[m[K’
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Householder:24[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/QR:15[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:513:99:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived, class VectorsType, class CoeffsType, int Side> typename Eigen::internal::matrix_type_times_scalar_type<typename VectorsType::Scalar, OtherDerived>::Type Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::HouseholderSequence<VectorsType, CoeffsType, Side>&)[m[K’
+  513 | typename internal::matrix_type_times_scalar_type<typename VectorsType::Scalar,OtherDerived>::Type [01;36m[Koperator[m[K*(const MatrixBase<OtherDerived>& other, const HouseholderSequence<VectorsType,CoeffsType,Side>& h)
+      |                                                                                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:513:99:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:46[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:4[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/pose_controller.h:3[m[K,
+                 from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:135:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Scalar> Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, Scalar>, const Derived, const typename Eigen::internal::plain_constant_type<Expr, Scalar>::type> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::UniformScaling<Scalar>&)[m[K’
+  135 | [01;36m[Koperator[m[K*(const MatrixBase<Derived>& matrix, const UniformScaling<Scalar>& s)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:135:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/pose_controller.cpp:241:61:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  241 |     Eigen::Vector3d T_des = R_bw_ * mass_ * a_des_world - * [01;36m[KR_bw_[m[K * mass_ * g;
+      |                                                             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/aerogripper_control_node.dir/build.make:90: CMakeFiles/aerogripper_control_node.dir/src/pose_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/aerogripper_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

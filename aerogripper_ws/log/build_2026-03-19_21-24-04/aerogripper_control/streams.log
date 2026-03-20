@@ -1,0 +1,39 @@
+[0.374s] Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control': CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_control -- -j32 -l32
+[0.423s] [ 20%] Built target motor_test_node
+[0.425s] [ 50%] Built target aerogripper_control_lib
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target aerogripper_control_node[0m
+[0.448s] [ 70%] Built target test_integration
+[0.455s] [ 80%] [32mBuilding CXX object CMakeFiles/aerogripper_control_node.dir/src/pose_controller.cpp.o[0m
+[16.065s] [ 90%] [32m[1mLinking CXX executable aerogripper_control_node[0m
+[17.546s] [100%] Built target aerogripper_control_node
+[17.556s] Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control' returned '0': CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_control -- -j32 -l32
+[17.566s] Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control': CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_control
+[17.571s] -- Install configuration: ""
+[17.572s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node
+[17.586s] -- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node" to ""
+[17.586s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/test_integration
+[17.586s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/libaerogripper_control_lib.a
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/motor_test_node
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch/test.launch.py
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/config.yaml
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_yaw_weight.md
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/controller_params.yaml
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_params.md
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/package_run_dependencies/aerogripper_control
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/parent_prefix_path/aerogripper_control
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.sh
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.dsv
+[17.587s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.sh
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.dsv
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.bash
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.sh
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.zsh
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.dsv
+[17.588s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.dsv
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/packages/aerogripper_control
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig.cmake
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig-version.cmake
+[17.588s] -- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.xml
+[17.589s] Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control' returned '0': CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_control

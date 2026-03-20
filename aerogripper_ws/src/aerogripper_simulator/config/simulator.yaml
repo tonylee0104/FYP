@@ -1,0 +1,22 @@
+aerogripper_simulator:
+  ros__parameters:
+    # 物理参数
+    mass: 0.105
+    body_dims: [0.05, 0.05, 0.1]   # [x, y, z] meters
+    inertia: [0.000069, 0.000069, 0.000017]  # [Ixx, Iyy, Izz] kg·m²
+    gravity: [0.0, 0.0, -9.80665]  # m/s²
+    attach_offset: [0.0, 0.0, 0.05] # 机体坐标系下质心到绳附着点偏移 (m)
+
+    # 初始状态
+    initial_position: [0.0, 0.1, -0.4]  # 世界系质心初始位置 (m)
+    initial_rope_length: 0.5            # 初始绳长 (m)
+    initial_rope_speed: 0.0             # 初始绳速 (m/s)
+
+    # 仿真参数
+    simulation_dt: 0.001       # 仿真步长 (s)
+    publish_rate: 100.0        # 状态发布频率 (Hz)
+    acceleration_filter_tau: 0.01  # 加速度低通滤波时间常数 (s)
+
+    # 锚点默认状态（当无外部输入时）
+    anchor_default_position: [0.0, 0.0, 0.0]
+    anchor_default_velocity: [0.0, 0.0, 0.0]

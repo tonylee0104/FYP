@@ -1,0 +1,284 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_target_interfaces)
+
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fyp/FYP/aerogripper_ws/build/aerogripper_msgs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_aerogripper_msgs
+running egg_info
+creating aerogripper_msgs.egg-info
+writing aerogripper_msgs.egg-info/PKG-INFO
+writing dependency_links to aerogripper_msgs.egg-info/dependency_links.txt
+writing top-level names to aerogripper_msgs.egg-info/top_level.txt
+writing manifest file 'aerogripper_msgs.egg-info/SOURCES.txt'
+reading manifest file 'aerogripper_msgs.egg-info/SOURCES.txt'
+writing manifest file 'aerogripper_msgs.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_aerogripper_msgs_egg
+[  4%] Built target aerogripper_msgs__cpp
+[  6%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_generator_c.dir/rosidl_generator_c/aerogripper_msgs/msg/detail/pose_reference__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_generator_c.dir/rosidl_generator_c/aerogripper_msgs/msg/detail/controller_state__functions.c.o[0m
+[ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 18%] [32m[1mLinking C shared library libaerogripper_msgs__rosidl_generator_c.so[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerogripper_msgs/msg/pose_reference__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aerogripper_msgs/msg/controller_state__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerogripper_msgs/msg/detail/pose_reference__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aerogripper_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/pose_reference__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libaerogripper_msgs__rosidl_typesupport_cpp.so[0m
+[ 34%] Built target aerogripper_msgs__rosidl_generator_c
+[ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 39%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 44%] [32m[1mLinking CXX shared library libaerogripper_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 46%] [32m[1mLinking CXX shared library libaerogripper_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerogripper_msgs/msg/pose_reference__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aerogripper_msgs/msg/controller_state__type_support.cpp.o[0m
+[ 51%] Built target aerogripper_msgs__rosidl_typesupport_cpp
+[ 53%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerogripper_msgs/msg/detail/pose_reference__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aerogripper_msgs/msg/detail/controller_state__type_support.c.o[0m
+[ 58%] [32m[1mLinking CXX shared library libaerogripper_msgs__rosidl_typesupport_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerogripper_msgs/msg/detail/pose_reference__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aerogripper_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[ 65%] [32m[1mLinking C shared library libaerogripper_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target aerogripper_msgs__rosidl_typesupport_introspection_cpp
+[ 65%] Built target aerogripper_msgs__rosidl_typesupport_fastrtps_cpp
+[ 67%] [32m[1mLinking CXX shared library libaerogripper_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 67%] Built target aerogripper_msgs__rosidl_typesupport_c
+[ 67%] Built target aerogripper_msgs__rosidl_typesupport_introspection_c
+[ 67%] Built target aerogripper_msgs__rosidl_typesupport_fastrtps_c
+[ 67%] Built target aerogripper_msgs
+[ 72%] [32mBuilding CXX object CMakeFiles/test_controller_state.dir/src/test_controller_state.cpp.o[0m
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/src/test_publisher.cpp.o[0m
+[ 74%] Built target aerogripper_msgs__py
+[ 76%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_generator_py.dir/rosidl_generator_py/aerogripper_msgs/msg/_pose_reference_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_generator_py.dir/rosidl_generator_py/aerogripper_msgs/msg/_controller_state_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/aerogripper_msgs/libaerogripper_msgs__rosidl_generator_py.so[0m
+[ 81%] Built target aerogripper_msgs__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] Built target aerogripper_msgs__rosidl_typesupport_c__pyext
+[ 95%] Built target aerogripper_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target aerogripper_msgs__rosidl_typesupport_introspection_c__pyext
+[ 97%] [32m[1mLinking CXX executable test_publisher[0m
+[100%] [32m[1mLinking CXX executable test_controller_state[0m
+[100%] Built target test_publisher
+[100%] Built target test_controller_state
+-- Install configuration: ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/ament_index/resource_index/rosidl_interfaces/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__type_support.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__functions.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__type_support.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__functions.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__functions.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__functions.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__struct.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__struct.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/controller_state.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/pose_reference.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/library_path.sh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/library_path.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__rosidl_typesupport_introspection_c.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__type_support.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__type_support.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__builder.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__type_support.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__traits.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__builder.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__type_support.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__traits.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__struct.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__struct.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/pose_reference.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/controller_state.hpp
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__type_support.cpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/include/aerogripper_msgs/aerogripper_msgs/msg/detail/pose_reference__type_support.cpp
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/pythonpath.sh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/pythonpath.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/__init__.py
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/libaerogripper_msgs__rosidl_generator_py.so
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/__init__.py
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_controller_state_s.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_controller_state.py
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_pose_reference.py
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_pose_reference_s.c
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/_aerogripper_msgs_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs'...
+Compiling '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/__init__.py'...
+Listing '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg'...
+Compiling '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/__init__.py'...
+Compiling '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_controller_state.py'...
+Compiling '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/msg/_pose_reference.py'...
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages/aerogripper_msgs/aerogripper_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/libaerogripper_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/msg/PoseReference.idl
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/msg/ControllerState.idl
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/msg/PoseReference.msg
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/msg/ControllerState.msg
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/aerogripper_msgs/test_publisher
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/aerogripper_msgs/test_publisher" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/aerogripper_msgs/test_controller_state
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/aerogripper_msgs/test_controller_state" to ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib/aerogripper_msgs/controller_state_subscriber.py
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/ament_index/resource_index/package_run_dependencies/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/ament_index/resource_index/parent_prefix_path/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/path.sh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/environment/path.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/local_setup.bash
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/local_setup.sh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/local_setup.zsh
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/local_setup.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/package.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/ament_index/resource_index/packages/aerogripper_msgs
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/export_aerogripper_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgsConfig.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/cmake/aerogripper_msgsConfig-version.cmake
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/share/aerogripper_msgs/package.xml

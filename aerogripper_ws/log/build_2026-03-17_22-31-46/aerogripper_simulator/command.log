@@ -1,0 +1,4 @@
+Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator -- -j32 -l32
+Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator -- -j32 -l32
+Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator
+Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator

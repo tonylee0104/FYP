@@ -1,0 +1,36 @@
+[ 20%] Built target motor_test_node
+[ 50%] Built target aerogripper_control_lib
+[35m[1mConsolidate compiler generated dependencies of target aerogripper_control_node[0m
+[ 70%] Built target test_integration
+[ 80%] [32mBuilding CXX object CMakeFiles/aerogripper_control_node.dir/src/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/aerogripper_control_node.dir/src/pose_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable aerogripper_control_node[0m
+[100%] Built target aerogripper_control_node
+-- Install configuration: ""
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node
+-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node" to ""
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/test_integration
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/libaerogripper_control_lib.a
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/motor_test_node
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch/test.launch.py
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/config.yaml
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_yaw_weight.md
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/controller_params.yaml
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_params.md
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/package_run_dependencies/aerogripper_control
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/parent_prefix_path/aerogripper_control
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.sh
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.dsv
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.bash
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.sh
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.zsh
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.dsv
+-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.dsv
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/packages/aerogripper_control
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig.cmake
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig-version.cmake
+-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.xml

@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (-) JobUnselected: {'identifier': 'aerogripper_msgs'}
+[0.000914] (-) JobUnselected: {'identifier': 'aerogripper_simulator'}
+[0.000934] (aerogripper_control) JobQueued: {'identifier': 'aerogripper_control', 'dependencies': OrderedDict([('aerogripper_msgs', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs')])}
+[0.000952] (aerogripper_control) JobStarted: {'identifier': 'aerogripper_control'}
+[0.098777] (-) TimerEvent: {}
+[0.199143] (-) TimerEvent: {}
+[0.299549] (-) TimerEvent: {}
+[0.330942] (aerogripper_control) JobProgress: {'identifier': 'aerogripper_control', 'progress': 'cmake'}
+[0.332541] (aerogripper_control) JobProgress: {'identifier': 'aerogripper_control', 'progress': 'build'}
+[0.332620] (aerogripper_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control', '--', '-j32', '-l32'], 'cwd': '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fyp'), ('GIT_EDITOR', ':'), ('GIT_ASKPASS', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:/home/fyp/FYP/px4_ws/install/px4_ros_com/lib:/home/fyp/FYP/px4_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyp'), ('OLDPWD', '/home/fyp/FYP/aerogripper_ws'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-04cb7964-a73d-48c3-8bc0-8c510ea7c7eb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install:/home/fyp/FYP/px4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyp'), ('NAME', 'TONYLEE'), ('WSL_INTEROP', '/run/WSL/25959_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/fyp/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/fyp/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/abc66/AppData/Local/Programs/Microsoft VS Code:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/abc66/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/abc66/.dotnet/tools:/mnt/c/Users/abc66/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/abc66/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/abc66/AppData/Local/Programs/Kiro/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77da72d6e1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator/local/lib/python3.10/dist-packages:/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:/home/fyp/FYP/px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/fyp/FYP/px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.392871] (aerogripper_control) StdoutLine: {'line': b'[ 20%] Built target motor_test_node\n'}
+[0.393311] (aerogripper_control) StdoutLine: {'line': b'[ 50%] Built target aerogripper_control_lib\n'}
+[0.399665] (-) TimerEvent: {}
+[0.406709] (aerogripper_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aerogripper_control_node\x1b[0m\n'}
+[0.418104] (aerogripper_control) StdoutLine: {'line': b'[ 70%] Built target test_integration\n'}
+[0.424877] (aerogripper_control) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/aerogripper_control_node.dir/src/pose_controller.cpp.o\x1b[0m\n'}
+[0.499935] (-) TimerEvent: {}
+[0.600420] (-) TimerEvent: {}
+[0.700815] (-) TimerEvent: {}
+[0.801155] (-) TimerEvent: {}
+[0.901658] (-) TimerEvent: {}
+[1.002150] (-) TimerEvent: {}
+[1.102717] (-) TimerEvent: {}
+[1.203233] (-) TimerEvent: {}
+[1.303729] (-) TimerEvent: {}
+[1.404402] (-) TimerEvent: {}
+[1.504916] (-) TimerEvent: {}
+[1.605357] (-) TimerEvent: {}
+[1.705858] (-) TimerEvent: {}
+[1.806537] (-) TimerEvent: {}
+[1.907060] (-) TimerEvent: {}
+[2.007538] (-) TimerEvent: {}
+[2.107896] (-) TimerEvent: {}
+[2.208485] (-) TimerEvent: {}
+[2.308990] (-) TimerEvent: {}
+[2.409513] (-) TimerEvent: {}
+[2.510011] (-) TimerEvent: {}
+[2.610437] (-) TimerEvent: {}
+[2.710891] (-) TimerEvent: {}
+[2.811423] (-) TimerEvent: {}
+[2.911997] (-) TimerEvent: {}
+[3.012435] (-) TimerEvent: {}
+[3.112911] (-) TimerEvent: {}
+[3.213545] (-) TimerEvent: {}
+[3.314146] (-) TimerEvent: {}
+[3.414559] (-) TimerEvent: {}
+[3.515058] (-) TimerEvent: {}
+[3.615659] (-) TimerEvent: {}
+[3.716076] (-) TimerEvent: {}
+[3.816537] (-) TimerEvent: {}
+[3.916934] (-) TimerEvent: {}
+[4.017572] (-) TimerEvent: {}
+[4.118022] (-) TimerEvent: {}
+[4.218420] (-) TimerEvent: {}
+[4.318962] (-) TimerEvent: {}
+[4.419535] (-) TimerEvent: {}
+[4.519981] (-) TimerEvent: {}
+[4.620473] (-) TimerEvent: {}
+[4.721039] (-) TimerEvent: {}
+[4.821576] (-) TimerEvent: {}
+[4.921971] (-) TimerEvent: {}
+[5.022456] (-) TimerEvent: {}
+[5.122889] (-) TimerEvent: {}
+[5.223239] (-) TimerEvent: {}
+[5.323787] (-) TimerEvent: {}
+[5.424139] (-) TimerEvent: {}
+[5.524475] (-) TimerEvent: {}
+[5.625023] (-) TimerEvent: {}
+[5.725573] (-) TimerEvent: {}
+[5.826016] (-) TimerEvent: {}
+[5.926441] (-) TimerEvent: {}
+[6.027086] (-) TimerEvent: {}
+[6.127529] (-) TimerEvent: {}
+[6.228098] (-) TimerEvent: {}
+[6.328586] (-) TimerEvent: {}
+[6.429068] (-) TimerEvent: {}
+[6.529829] (-) TimerEvent: {}
+[6.630302] (-) TimerEvent: {}
+[6.730664] (-) TimerEvent: {}
+[6.831237] (-) TimerEvent: {}
+[6.931692] (-) TimerEvent: {}
+[7.032037] (-) TimerEvent: {}
+[7.132385] (-) TimerEvent: {}
+[7.232796] (-) TimerEvent: {}
+[7.333347] (-) TimerEvent: {}
+[7.433828] (-) TimerEvent: {}
+[7.534410] (-) TimerEvent: {}
+[7.634785] (-) TimerEvent: {}
+[7.735297] (-) TimerEvent: {}
+[7.835767] (-) TimerEvent: {}
+[7.936228] (-) TimerEvent: {}
+[8.036719] (-) TimerEvent: {}
+[8.137163] (-) TimerEvent: {}
+[8.237551] (-) TimerEvent: {}
+[8.337954] (-) TimerEvent: {}
+[8.438494] (-) TimerEvent: {}
+[8.538985] (-) TimerEvent: {}
+[8.639611] (-) TimerEvent: {}
+[8.740165] (-) TimerEvent: {}
+[8.840754] (-) TimerEvent: {}
+[8.941342] (-) TimerEvent: {}
+[9.041738] (-) TimerEvent: {}
+[9.142222] (-) TimerEvent: {}
+[9.242697] (-) TimerEvent: {}
+[9.343313] (-) TimerEvent: {}
+[9.443728] (-) TimerEvent: {}
+[9.544298] (-) TimerEvent: {}
+[9.644958] (-) TimerEvent: {}
+[9.745384] (-) TimerEvent: {}
+[9.845789] (-) TimerEvent: {}
+[9.946263] (-) TimerEvent: {}
+[10.046795] (-) TimerEvent: {}
+[10.147447] (-) TimerEvent: {}
+[10.247979] (-) TimerEvent: {}
+[10.348441] (-) TimerEvent: {}
+[10.448892] (-) TimerEvent: {}
+[10.549462] (-) TimerEvent: {}
+[10.650020] (-) TimerEvent: {}
+[10.750472] (-) TimerEvent: {}
+[10.850931] (-) TimerEvent: {}
+[10.951469] (-) TimerEvent: {}
+[11.052097] (-) TimerEvent: {}
+[11.152521] (-) TimerEvent: {}
+[11.252882] (-) TimerEvent: {}
+[11.353264] (-) TimerEvent: {}
+[11.453688] (-) TimerEvent: {}
+[11.554184] (-) TimerEvent: {}
+[11.654607] (-) TimerEvent: {}
+[11.755098] (-) TimerEvent: {}
+[11.855576] (-) TimerEvent: {}
+[11.956129] (-) TimerEvent: {}
+[12.056612] (-) TimerEvent: {}
+[12.157168] (-) TimerEvent: {}
+[12.257681] (-) TimerEvent: {}
+[12.358169] (-) TimerEvent: {}
+[12.458569] (-) TimerEvent: {}
+[12.559014] (-) TimerEvent: {}
+[12.659368] (-) TimerEvent: {}
+[12.759836] (-) TimerEvent: {}
+[12.860236] (-) TimerEvent: {}
+[12.961022] (-) TimerEvent: {}
+[13.061514] (-) TimerEvent: {}
+[13.161933] (-) TimerEvent: {}
+[13.262364] (-) TimerEvent: {}
+[13.362814] (-) TimerEvent: {}
+[13.463189] (-) TimerEvent: {}
+[13.563666] (-) TimerEvent: {}
+[13.664137] (-) TimerEvent: {}
+[13.764782] (-) TimerEvent: {}
+[13.865292] (-) TimerEvent: {}
+[13.965869] (-) TimerEvent: {}
+[14.066510] (-) TimerEvent: {}
+[14.166923] (-) TimerEvent: {}
+[14.267399] (-) TimerEvent: {}
+[14.367931] (-) TimerEvent: {}
+[14.468346] (-) TimerEvent: {}
+[14.568901] (-) TimerEvent: {}
+[14.669457] (-) TimerEvent: {}
+[14.769962] (-) TimerEvent: {}
+[14.870603] (-) TimerEvent: {}
+[14.971181] (-) TimerEvent: {}
+[15.071611] (-) TimerEvent: {}
+[15.172099] (-) TimerEvent: {}
+[15.272698] (-) TimerEvent: {}
+[15.373277] (-) TimerEvent: {}
+[15.473782] (-) TimerEvent: {}
+[15.574268] (-) TimerEvent: {}
+[15.674747] (-) TimerEvent: {}
+[15.775189] (-) TimerEvent: {}
+[15.875782] (-) TimerEvent: {}
+[15.976267] (-) TimerEvent: {}
+[16.076722] (-) TimerEvent: {}
+[16.177299] (-) TimerEvent: {}
+[16.277868] (-) TimerEvent: {}
+[16.378304] (-) TimerEvent: {}
+[16.433372] (aerogripper_control) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable aerogripper_control_node\x1b[0m\n'}
+[16.478437] (-) TimerEvent: {}
+[16.578918] (-) TimerEvent: {}
+[16.679371] (-) TimerEvent: {}
+[16.779881] (-) TimerEvent: {}
+[16.880346] (-) TimerEvent: {}
+[16.980830] (-) TimerEvent: {}
+[17.081178] (-) TimerEvent: {}
+[17.181741] (-) TimerEvent: {}
+[17.282221] (-) TimerEvent: {}
+[17.382804] (-) TimerEvent: {}
+[17.483216] (-) TimerEvent: {}
+[17.583652] (-) TimerEvent: {}
+[17.684164] (-) TimerEvent: {}
+[17.784656] (-) TimerEvent: {}
+[17.830073] (aerogripper_control) StdoutLine: {'line': b'[100%] Built target aerogripper_control_node\n'}
+[17.840203] (aerogripper_control) CommandEnded: {'returncode': 0}
+[17.841622] (aerogripper_control) JobProgress: {'identifier': 'aerogripper_control', 'progress': 'install'}
+[17.849136] (aerogripper_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control'], 'cwd': '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fyp'), ('GIT_EDITOR', ':'), ('GIT_ASKPASS', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:/home/fyp/FYP/px4_ws/install/px4_ros_com/lib:/home/fyp/FYP/px4_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyp'), ('OLDPWD', '/home/fyp/FYP/aerogripper_ws'), ('TERM_PROGRAM_VERSION', '1.111.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-04cb7964-a73d-48c3-8bc0-8c510ea7c7eb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install:/home/fyp/FYP/px4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyp'), ('NAME', 'TONYLEE'), ('WSL_INTEROP', '/run/WSL/25959_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/fyp/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/fyp/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/fyp/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/abc66/AppData/Local/Programs/Microsoft VS Code:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/abc66/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/abc66/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/abc66/.dotnet/tools:/mnt/c/Users/abc66/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/abc66/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/abc66/AppData/Local/Programs/Kiro/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77da72d6e1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('PWD', '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control'), ('GIT_MERGE_AUTOEDIT', 'no'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator/local/lib/python3.10/dist-packages:/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:/home/fyp/FYP/px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/fyp/FYP/px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/aerogripper_ws/install/aerogripper_simulator:/home/fyp/FYP/aerogripper_ws/install/aerogripper_control:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[17.856498] (aerogripper_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.856914] (aerogripper_control) StdoutLine: {'line': b'-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node\n'}
+[17.884870] (aerogripper_control) StdoutLine: {'line': b'-- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node" to ""\n'}
+[17.885028] (-) TimerEvent: {}
+[17.885253] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/test_integration\n'}
+[17.885358] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/libaerogripper_control_lib.a\n'}
+[17.885619] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/motor_test_node\n'}
+[17.886337] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch\n'}
+[17.886611] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch/test.launch.py\n'}
+[17.886676] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config\n'}
+[17.886718] (aerogripper_control) StdoutLine: {'line': b'-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/config.yaml\n'}
+[17.886758] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_yaw_weight.md\n'}
+[17.886794] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/controller_params.yaml\n'}
+[17.886829] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_params.md\n'}
+[17.886863] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/package_run_dependencies/aerogripper_control\n'}
+[17.886897] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/parent_prefix_path/aerogripper_control\n'}
+[17.886931] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.sh\n'}
+[17.886964] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.dsv\n'}
+[17.886996] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.sh\n'}
+[17.887036] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.dsv\n'}
+[17.887069] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.bash\n'}
+[17.887102] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.sh\n'}
+[17.887134] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.zsh\n'}
+[17.887166] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.dsv\n'}
+[17.887200] (aerogripper_control) StdoutLine: {'line': b'-- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.dsv\n'}
+[17.887231] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/packages/aerogripper_control\n'}
+[17.887263] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig.cmake\n'}
+[17.887362] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig-version.cmake\n'}
+[17.887414] (aerogripper_control) StdoutLine: {'line': b'-- Up-to-date: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.xml\n'}
+[17.889408] (aerogripper_control) CommandEnded: {'returncode': 0}
+[17.905597] (aerogripper_control) JobEnded: {'identifier': 'aerogripper_control', 'rc': 0}
+[17.906996] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaerogripper_control_lib.a CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o CMakeFiles/aerogripper_control_lib.dir/src/tether_observer.cpp.o
+/usr/bin/ranlib libaerogripper_control_lib.a

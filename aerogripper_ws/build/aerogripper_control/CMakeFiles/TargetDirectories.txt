@@ -1,0 +1,13 @@
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/uninstall.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/aerogripper_control_uninstall.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/aerogripper_control_lib.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/aerogripper_control_node.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/test_integration.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/motor_test_node.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/test.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/edit_cache.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/rebuild_cache.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/list_install_components.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/install.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/install/local.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_control/CMakeFiles/install/strip.dir

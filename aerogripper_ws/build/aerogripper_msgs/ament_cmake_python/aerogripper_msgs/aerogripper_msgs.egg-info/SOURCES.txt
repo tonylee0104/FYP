@@ -1,0 +1,9 @@
+setup.py
+aerogripper_msgs/__init__.py
+aerogripper_msgs.egg-info/PKG-INFO
+aerogripper_msgs.egg-info/SOURCES.txt
+aerogripper_msgs.egg-info/dependency_links.txt
+aerogripper_msgs.egg-info/top_level.txt
+aerogripper_msgs/msg/__init__.py
+aerogripper_msgs/msg/_controller_state.py
+aerogripper_msgs/msg/_pose_reference.py

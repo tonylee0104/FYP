@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aerogripper_msgs/msg/PoseReference.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module aerogripper_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "位置参考 (x, y, z)")
+    struct PoseReference {
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "线性速度参考 (vx, vy, vz)")
+      geometry_msgs::msg::Vector3 linear_velocity;
+
+      @verbatim (language="comment", text=
+        "线性加速度参考 (ax, ay, az)")
+      geometry_msgs::msg::Vector3 linear_acceleration;
+
+      @verbatim (language="comment", text=
+        "姿态四元数参考 (w, x, y, z)")
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "角速度参考 (wx, wy, wz)")
+      geometry_msgs::msg::Vector3 angular_velocity;
+    };
+  };
+};

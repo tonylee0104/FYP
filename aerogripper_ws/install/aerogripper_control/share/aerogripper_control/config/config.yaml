@@ -1,0 +1,45 @@
+# config.yaml
+# ROS2参数配置文件
+# MicroXRCEAgent serial --dev /dev/ttyTHS1 -b 921600
+
+aerogripper_control:
+  ros__parameters:
+    # # 控制参数
+    # kp_pos: [1.1, 1.1, 1.1]
+    # kv_pos: [0.1, 0.1, 0.1]
+    # k_R: [10.0, 10.0, 10.0]
+    # # kp_att: [0.00084, 0.00084, 0.00021]
+    # kp_att: [0.002, 0.002, 0.00021]
+    # ki_att: [0.0004, 0.0004, 0.0001]
+    # # ki_att: [0.004, 0.004, 0.001]
+    # kd_att: [0.0000004, 0.0000004, 0.0000001]
+    
+    # Retuned for better damping and less oscillation at large setpoint changes
+    kp_pos: [0.25, 0.25, 0.12]
+    kv_pos: [0.07, 0.07, 0.012]
+    kp_att: [0.04, 0.04, 0.018]
+    kd_att: [0.03, 0.03, 0.012]
+    
+    # Mission parameters (hover-only at home position)
+    hover_target: [0.0, 0.0, 0.0]  # Keep the vehicle hovering at home/origin
+    initial_home: [0.0, 0.0, 0.0]  # Original/home position
+
+    # 物理参数
+    mass: 0.105
+    inertia: [0.000069, 0.000069, 0.000017]
+    thrust_arm_length: 0.05
+    gravity_arm_length: 0.05
+    thrust_coeff: 6.503575
+    torque_coeff: 0.002
+    # torque_coeff: 0.2
+    rpm_coeff: 1.0
+    thrust_weight: 1.0
+    throttle_threshold: 0.1  # 油门阈值
+    yaw_weight: 0.002  # Yaw控制权重，越大yaw控制优先级越高
+    attitude_weight: 250.0  # 姿态控制权重，越大姿态控制优先级越高
+    compensation_factor: 1.1
+    
+    # 油门滤波和限制参数
+    # In current implementation, a smaller filter_coefficient means stronger smoothing.
+    filter_coefficient: 0.20
+    max_throttle_delta: 0.9

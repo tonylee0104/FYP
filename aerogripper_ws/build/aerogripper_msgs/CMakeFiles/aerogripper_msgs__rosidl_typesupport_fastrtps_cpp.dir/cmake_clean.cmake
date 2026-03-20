@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o"
+  "CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o.d"
+  "CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/pose_reference__type_support.cpp.o"
+  "CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/pose_reference__type_support.cpp.o.d"
+  "libaerogripper_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libaerogripper_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/dds_fastrtps/pose_reference__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/aerogripper_msgs/msg/detail/pose_reference__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aerogripper_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

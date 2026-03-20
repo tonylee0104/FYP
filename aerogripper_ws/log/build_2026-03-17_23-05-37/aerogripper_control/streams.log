@@ -1,0 +1,44 @@
+[0.651s] Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control': AMENT_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_control -- -j32 -l32
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target motor_test_node[0m
+[0.716s] [35m[1mConsolidate compiler generated dependencies of target aerogripper_control_lib[0m
+[0.729s] [ 20%] Built target motor_test_node
+[0.732s] [ 50%] Built target aerogripper_control_lib
+[0.745s] [35m[1mConsolidate compiler generated dependencies of target test_integration[0m
+[0.747s] [35m[1mConsolidate compiler generated dependencies of target aerogripper_control_node[0m
+[0.760s] [ 70%] Built target test_integration
+[0.763s] [ 80%] [32mBuilding CXX object CMakeFiles/aerogripper_control_node.dir/src/pose_controller.cpp.o[0m
+[16.353s] [ 90%] [32m[1mLinking CXX executable aerogripper_control_node[0m
+[18.239s] [100%] Built target aerogripper_control_node
+[18.248s] Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control' returned '0': AMENT_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fyp/FYP/aerogripper_ws/build/aerogripper_control -- -j32 -l32
+[18.252s] Invoking command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control': AMENT_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_control
+[18.258s] -- Install configuration: ""
+[18.259s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node
+[18.267s] -- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/aerogripper_control_node" to ""
+[18.267s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/test_integration
+[18.277s] -- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/test_integration" to ""
+[18.277s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/libaerogripper_control_lib.a
+[18.286s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/motor_test_node
+[18.290s] -- Set runtime path of "/home/fyp/FYP/aerogripper_ws/install/aerogripper_control/lib/aerogripper_control/motor_test_node" to ""
+[18.290s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch
+[18.291s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/launch/test.launch.py
+[18.291s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config
+[18.292s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/config.yaml
+[18.292s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_yaw_weight.md
+[18.293s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/controller_params.yaml
+[18.293s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/config/README_params.md
+[18.294s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/package_run_dependencies/aerogripper_control
+[18.295s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/parent_prefix_path/aerogripper_control
+[18.295s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.sh
+[18.296s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/ament_prefix_path.dsv
+[18.296s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.sh
+[18.297s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/environment/path.dsv
+[18.297s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.bash
+[18.298s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.sh
+[18.298s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.zsh
+[18.298s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/local_setup.dsv
+[18.299s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.dsv
+[18.299s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/ament_index/resource_index/packages/aerogripper_control
+[18.300s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig.cmake
+[18.300s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/cmake/aerogripper_controlConfig-version.cmake
+[18.300s] -- Installing: /home/fyp/FYP/aerogripper_ws/install/aerogripper_control/share/aerogripper_control/package.xml
+[18.302s] Invoked command in '/home/fyp/FYP/aerogripper_ws/build/aerogripper_control' returned '0': AMENT_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs:/home/fyp/FYP/px4_ws/install/px4_ros_com:/home/fyp/FYP/px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fyp/FYP/aerogripper_ws/install/aerogripper_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fyp/FYP/aerogripper_ws/build/aerogripper_control

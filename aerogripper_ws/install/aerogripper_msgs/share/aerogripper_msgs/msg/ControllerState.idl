@@ -1,0 +1,88 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aerogripper_msgs/msg/ControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module aerogripper_msgs {
+  module msg {
+    typedef double double__4[4];
+    @verbatim (language="comment", text=
+      "控制器状态消息" "\n"
+      "用于发布控制器的内部状态数据，便于调试和监控")
+    struct ControllerState {
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "时间步长 (dt)")
+      double dt;
+
+      @verbatim (language="comment", text=
+        "期望加速度 (a_des)")
+      geometry_msgs::msg::Vector3 desired_acceleration;
+
+      @verbatim (language="comment", text=
+        "期望角速度 (omega_des)")
+      geometry_msgs::msg::Vector3 desired_angular_velocity;
+
+      @verbatim (language="comment", text=
+        "期望推力 (T_des)")
+      geometry_msgs::msg::Vector3 desired_thrust;
+
+      @verbatim (language="comment", text=
+        "期望力矩 (tau_des)")
+      geometry_msgs::msg::Vector3 desired_torque;
+
+      @verbatim (language="comment", text=
+        "当前位置")
+      geometry_msgs::msg::Point current_position;
+
+      @verbatim (language="comment", text=
+        "当前速度")
+      geometry_msgs::msg::Vector3 current_velocity;
+
+      @verbatim (language="comment", text=
+        "当前姿态四元数")
+      geometry_msgs::msg::Quaternion current_orientation;
+
+      @verbatim (language="comment", text=
+        "当前姿态欧拉角 (roll, pitch, yaw)")
+      @unit (value="弧度")
+      geometry_msgs::msg::Vector3 current_euler_angles;
+
+      @verbatim (language="comment", text=
+        "当前角速度")
+      geometry_msgs::msg::Vector3 current_angular_velocity;
+
+      @verbatim (language="comment", text=
+        "参考位置")
+      geometry_msgs::msg::Point reference_position;
+
+      @verbatim (language="comment", text=
+        "参考速度")
+      geometry_msgs::msg::Vector3 reference_velocity;
+
+      @verbatim (language="comment", text=
+        "参考姿态四元数")
+      geometry_msgs::msg::Quaternion reference_orientation;
+
+      @verbatim (language="comment", text=
+        "参考姿态欧拉角 (roll, pitch, yaw)")
+      @unit (value="弧度")
+      geometry_msgs::msg::Vector3 reference_euler_angles;
+
+      @verbatim (language="comment", text=
+        "油门输出值")
+      double__4 throttle_output;
+
+      @verbatim (language="comment", text=
+        "绳子拉力观测值 (在机体坐标系下)")
+      geometry_msgs::msg::Vector3 tether_force_bodyframe;
+    };
+  };
+};

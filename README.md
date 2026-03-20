@@ -1,4 +1,3 @@
 # FYP
 
-welcomoe the FYP project
-
+Welcome to the FYP project.

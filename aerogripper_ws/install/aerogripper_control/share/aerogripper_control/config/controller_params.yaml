@@ -1,0 +1,44 @@
+# 无人机控制器参数配置文件
+# 文件名: controller_params.yaml
+
+aerogripper_control:
+  ros__parameters:
+    # PID控制参数
+    kp_pos: [2.0, 2.0, 3.0]        # 位置控制比例增益 [x, y, z]
+    kv_pos: [0.6, 0.6, 0.8]        # 位置控制微分增益 [x, y, z]
+    k_R: [1.0, 1.0, 1.0]           # 姿态控制增益 [roll, pitch, yaw]
+    kp_att: [8.0, 8.0, 5.0]        # 姿态控制比例增益 [roll, pitch, yaw]
+    ki_att: [0.0, 0.0, 0.0]        # 姿态控制积分增益 [roll, pitch, yaw]
+    kd_att: [0.1, 0.1, 0.1]        # 姿态控制微分增益 [roll, pitch, yaw]
+    
+    # 物理参数
+    mass: 0.110                     # 无人机质量 [kg]
+    inertia: [0.01, 0.01, 0.005]   # 转动惯量 [kg⋅m²]
+    thrust_coeff: 1.99              # 推力系数
+    thrust_arm_length: 0.055        # 推力臂长度 [m]
+    gravity_arm_length: 0.045       # 重力臂长度 [m]
+    torque_coeff: 0.01              # 扭矩系数
+    rpm_coeff: 1.0                  # 转速系数
+    
+    # 控制分配参数
+    yaw_weight: 0.001                 # Yaw控制权重 (重要参数!)
+                                    # 值越小，yaw控制越敏感
+                                    # 值越大，yaw控制越不敏感
+                                    # 建议范围: 0.05 - 1.0
+    
+    # 其他参数
+    compensation_factor: 1.5        # 补偿因子
+    filter_coefficient: 0.3         # 滤波系数
+    max_throttle_delta: 0.1         # 最大油门变化率
+    hover_target: [0.0, 0.0, -0.25] # 悬停目标点 [x, y, z] (world)
+    start_delay_s: 1.0              # 起飞前延时 [s]
+    travel_time_s: 3.0              # 飞向目标耗时 [s]
+    hover_time_s: 5.0               # 目标点悬停时间 [s]
+    return_time_s: 3.0              # 返回原点耗时 [s]
+
+# 参数说明:
+# yaw_weight: 这个参数用于控制分配矩阵的加权伪逆计算
+# - 当torque_coeff很小时(如0.01)，yaw控制会变得过度敏感
+# - 通过设置yaw_weight < 1.0，可以降低yaw控制的权重
+# - 例如: yaw_weight = 0.1 意味着yaw控制的权重是其他控制的1/10
+# - 这样可以平衡roll、pitch和yaw三个方向的控制效果

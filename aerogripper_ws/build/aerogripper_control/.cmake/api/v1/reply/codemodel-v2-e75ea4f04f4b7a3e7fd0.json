@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6c28dba5567064cf790e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aerogripper_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_control_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_control_lib-51e238c3728acb942ed5.json",
+					"name" : "aerogripper_control_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_control_node-322297b1d31d0ccd3ab9.json",
+					"name" : "aerogripper_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_control_uninstall-825cdec3b5e09d5568d1.json",
+					"name" : "aerogripper_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_test_node-e274329c834cb1c4ef24.json",
+					"name" : "motor_test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_integration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_integration-6aab3a5178ffa46c3f34.json",
+					"name" : "test_integration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e44153dda06dfeb338cf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fyp/FYP/aerogripper_ws/build/aerogripper_control",
+		"source" : "/home/fyp/FYP/aerogripper_ws/src/aerogripper_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

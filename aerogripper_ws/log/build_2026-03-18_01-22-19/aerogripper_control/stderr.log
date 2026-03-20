@@ -1,0 +1,6 @@
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:216:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcheck[m[K’ does not name a type
+  216 | [01;31m[Kcheck[m[K the mixer code
+      | [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/aerogripper_control_lib.dir/build.make:76: CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/aerogripper_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

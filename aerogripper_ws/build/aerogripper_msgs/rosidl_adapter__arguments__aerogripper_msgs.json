@@ -1,0 +1,7 @@
+{
+  "package_name": "aerogripper_msgs",
+  "non_idl_tuples": [
+    "/home/fyp/FYP/aerogripper_ws/src/aerogripper_msgs:msg/PoseReference.msg",
+    "/home/fyp/FYP/aerogripper_ws/src/aerogripper_msgs:msg/ControllerState.msg"
+  ]
+}

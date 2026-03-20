@@ -1,0 +1,11 @@
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/uninstall.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/aerogripper_simulator_uninstall.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/ament_cmake_python_copy_aerogripper_simulator.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/ament_cmake_python_build_aerogripper_simulator_egg.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/test.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/edit_cache.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/rebuild_cache.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/list_install_components.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/install.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/install/local.dir
+/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator/CMakeFiles/install/strip.dir

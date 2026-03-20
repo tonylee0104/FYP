@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aerogripper_control</name>
+  <version>0.0.1</version>
+  <description>Motor test node for direct PX4 motor control</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>px4_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>eigen3_cmake_module</depend>
+  <depend>aerogripper_msgs</depend>
+
+  <!-- 导出 CMake 配置 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

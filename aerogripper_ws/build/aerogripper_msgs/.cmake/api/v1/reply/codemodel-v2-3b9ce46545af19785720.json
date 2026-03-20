@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-449f990fa9025d2fc2df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "aerogripper_msgs__py",
+					"jsonFile" : "directory-aerogripper_msgs__py-454d890ff206a632d447.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/fyp/FYP/aerogripper_ws/build/aerogripper_msgs/aerogripper_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "aerogripper_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs-32c5431cb2c2b7e531ff.json",
+					"name" : "aerogripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__cpp-f737d8e73fa2055afb2b.json",
+					"name" : "aerogripper_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aerogripper_msgs__py::@8f52faaf3be54ad9905c",
+					"jsonFile" : "target-aerogripper_msgs__py-896b1c79b2bd8689be96.json",
+					"name" : "aerogripper_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_generator_c-2ac27288c6d66b066cbd.json",
+					"name" : "aerogripper_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_generator_py-c4ffe0cfc8bb2e5b8fb4.json",
+					"name" : "aerogripper_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_c-0064912208af352d2a42.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_c__pyext-49f3f47885244d404f23.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_cpp-4c680bdea8d9ab344762.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_fastrtps_c-23fb654a53e26be7f7ad.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_fastrtps_c__pyext-d3b4d5e08e84a31888ce.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_fastrtps_cpp-b665c82161dfa4c486a9.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_introspection_c-850e444a391833631942.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_introspection_c__pyext-5be14291b368bbec4f7a.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs__rosidl_typesupport_introspection_cpp-35fb24eb69c1c969784a.json",
+					"name" : "aerogripper_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_msgs_uninstall-bcb89d2862beb45625d4.json",
+					"name" : "aerogripper_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aerogripper_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aerogripper_msgs_egg-686450553c00fc268342.json",
+					"name" : "ament_cmake_python_build_aerogripper_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aerogripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aerogripper_msgs-93e92db375df59edcde7.json",
+					"name" : "ament_cmake_python_copy_aerogripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controller_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controller_state-ca60c061a045c793ffa8.json",
+					"name" : "test_controller_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_publisher-354fa5fb0184c7ac490c.json",
+					"name" : "test_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-70deec7ab32f76967abc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fyp/FYP/aerogripper_ws/build/aerogripper_msgs",
+		"source" : "/home/fyp/FYP/aerogripper_ws/src/aerogripper_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

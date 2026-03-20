@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-61fe638e4221dd91bb66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aerogripper_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aerogripper_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aerogripper_simulator_uninstall-86c104cc5c7cae54d750.json",
+					"name" : "aerogripper_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aerogripper_simulator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aerogripper_simulator_egg-d825735047a51b38c083.json",
+					"name" : "ament_cmake_python_build_aerogripper_simulator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aerogripper_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aerogripper_simulator-3ccf3e4592434e76ee03.json",
+					"name" : "ament_cmake_python_copy_aerogripper_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3dc12d0d717a05e8234c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fyp/FYP/aerogripper_ws/build/aerogripper_simulator",
+		"source" : "/home/fyp/FYP/aerogripper_ws/src/aerogripper_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1673 @@
+[35m[1mConsolidate compiler generated dependencies of target aerogripper_control_lib[0m
+[ 20%] Built target motor_test_node
+[ 30%] [32mBuilding CXX object CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o[0m
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:5:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    5 | [01;31m[K [m[K   // 初始化参数为默认值
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:5:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    5 |   [01;31m[K [m[K // 初始化参数为默认值
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:6:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    6 | [01;31m[K [m[K   param_set_flag_ = false;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:6:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    6 |   [01;31m[K [m[K param_set_flag_ = false;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:7:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    7 | [01;31m[K [m[K   thrust_arm_length_ = 0.2;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:7:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    7 |   [01;31m[K [m[K thrust_arm_length_ = 0.2;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:8:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    8 | [01;31m[K [m[K   gravity_arm_length_ = 0.2;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:8:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    8 |   [01;31m[K [m[K gravity_arm_length_ = 0.2;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:9:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    9 | [01;31m[K [m[K   torque_coeff_ = 0.01;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:9:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+    9 |   [01;31m[K [m[K torque_coeff_ = 0.01;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:10:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   10 | [01;31m[K [m[K   rpm_coeff_ = 0.01;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:10:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   10 |   [01;31m[K [m[K rpm_coeff_ = 0.01;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:11:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   11 | [01;31m[K [m[K   thrust_coeff_ = 0.01;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:11:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   11 |   [01;31m[K [m[K thrust_coeff_ = 0.01;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:12:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   12 | [01;31m[K [m[K   yaw_weight_ = 1.0; // 默认yaw权重为1.0
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:12:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   12 |   [01;31m[K [m[K yaw_weight_ = 1.0; // 默认yaw权重为1.0
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:13:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   13 | [01;31m[K [m[K   attitude_weight_ = 1.0; // 默认姿态权重为1.0
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:13:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   13 |   [01;31m[K [m[K attitude_weight_ = 1.0; // 默认姿态权重为1.0
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:14:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   14 | [01;31m[K [m[K   thrust_weight_ = 1.0; // 默认推力权重为1.0
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:14:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   14 |   [01;31m[K [m[K thrust_weight_ = 1.0; // 默认推力权重为1.0
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:16:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   16 | [01;31m[K [m[K   // 使用默认参数构控制矩阵
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:16:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   16 |   [01;31m[K [m[K // 使用默认参数构控制矩阵
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:17:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   17 | [01;31m[K [m[K   double L_T = thrust_arm_length_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:17:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   17 |   [01;31m[K [m[K double L_T = thrust_arm_length_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:18:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   18 | [01;31m[K [m[K   double L_G = gravity_arm_length_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:18:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   18 |   [01;31m[K [m[K double L_G = gravity_arm_length_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:19:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   19 | [01;31m[K [m[K   double kappa_t = torque_coeff_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:19:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   19 |   [01;31m[K [m[K double kappa_t = torque_coeff_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:20:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   20 | [01;31m[K [m[K   double sqrt2_2 = std::sqrt(2.0) / 2.0;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:20:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   20 |   [01;31m[K [m[K double sqrt2_2 = std::sqrt(2.0) / 2.0;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:21:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   21 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:21:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   21 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:22:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   22 | [01;31m[K [m[K   allocation_matrix_ = Eigen::Matrix<double,6,4>::Zero();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:22:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   22 |   [01;31m[K [m[K allocation_matrix_ = Eigen::Matrix<double,6,4>::Zero();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:23:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   23 | [01;31m[K [m[K   allocation_matrix_ <<
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:23:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   23 |   [01;31m[K [m[K allocation_matrix_ <<
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 | [01;31m[K [m[K       -0.5,          0.5,          -0.5,           0.5,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |   [01;31m[K [m[K     -0.5,          0.5,          -0.5,           0.5,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |     [01;31m[K [m[K   -0.5,          0.5,          -0.5,           0.5,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |       [01;31m[K [m[K -0.5,          0.5,          -0.5,           0.5,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5, [01;31m[K [m[K        0.5,          -0.5,           0.5,
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,   [01;31m[K [m[K      0.5,          -0.5,           0.5,
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,     [01;31m[K [m[K    0.5,          -0.5,           0.5,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,       [01;31m[K [m[K  0.5,          -0.5,           0.5,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:23:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,         [01;31m[K [m[K0.5,          -0.5,           0.5,
+      |                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:29:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5, [01;31m[K [m[K        -0.5,           0.5,
+      |                             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:31:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,   [01;31m[K [m[K      -0.5,           0.5,
+      |                               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:33:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,     [01;31m[K [m[K    -0.5,           0.5,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,       [01;31m[K [m[K  -0.5,           0.5,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,         [01;31m[K [m[K-0.5,           0.5,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:44:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,          -0.5, [01;31m[K [m[K         0.5,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,          -0.5,   [01;31m[K [m[K       0.5,
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:48:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,          -0.5,     [01;31m[K [m[K     0.5,
+      |                                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:50:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,          -0.5,       [01;31m[K [m[K   0.5,
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:24:52:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   24 |         -0.5,          0.5,          -0.5,         [01;31m[K [m[K 0.5,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 | [01;31m[K [m[K        0.5,         -0.5,          -0.5,           0.5,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |   [01;31m[K [m[K      0.5,         -0.5,          -0.5,           0.5,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |     [01;31m[K [m[K    0.5,         -0.5,          -0.5,           0.5,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |       [01;31m[K [m[K  0.5,         -0.5,          -0.5,           0.5,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |         [01;31m[K [m[K0.5,         -0.5,          -0.5,           0.5,
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5, [01;31m[K [m[K       -0.5,          -0.5,           0.5,
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,   [01;31m[K [m[K     -0.5,          -0.5,           0.5,
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,     [01;31m[K [m[K   -0.5,          -0.5,           0.5,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,       [01;31m[K [m[K -0.5,          -0.5,           0.5,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:29:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5, [01;31m[K [m[K        -0.5,           0.5,
+      |                             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:31:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,   [01;31m[K [m[K      -0.5,           0.5,
+      |                               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:33:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,     [01;31m[K [m[K    -0.5,           0.5,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,       [01;31m[K [m[K  -0.5,           0.5,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,         [01;31m[K [m[K-0.5,           0.5,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:44:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,          -0.5, [01;31m[K [m[K         0.5,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,          -0.5,   [01;31m[K [m[K       0.5,
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:48:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,          -0.5,     [01;31m[K [m[K     0.5,
+      |                                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:50:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,          -0.5,       [01;31m[K [m[K   0.5,
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:25:52:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   25 |          0.5,         -0.5,          -0.5,         [01;31m[K [m[K 0.5,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 | [01;31m[K [m[K       -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |   [01;31m[K [m[K     -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |     [01;31m[K [m[K   -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |       [01;31m[K [m[K -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2, [01;31m[K [m[K     -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,   [01;31m[K [m[K   -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:23:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,     [01;31m[K [m[K -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2, [01;31m[K [m[K     -sqrt2_2,        -sqrt2_2,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,   [01;31m[K [m[K   -sqrt2_2,        -sqrt2_2,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:39:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,     [01;31m[K [m[K -sqrt2_2,        -sqrt2_2,
+      |                                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:51:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2, [01;31m[K [m[K      -sqrt2_2,
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:53:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,   [01;31m[K [m[K    -sqrt2_2,
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:55:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,     [01;31m[K [m[K  -sqrt2_2,
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:26:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   26 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,       [01;31m[K [m[K-sqrt2_2,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 | [01;31m[K [m[K       0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 |   [01;31m[K [m[K     0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 |     [01;31m[K [m[K   0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 |       [01;31m[K [m[K 0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:32:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 |         0.5*L_T - 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 |         0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:27:82:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   27 | 5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K0.5*L_T - 0.5*kappa_t,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 | [01;31m[K [m[K       0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 |   [01;31m[K [m[K     0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 |     [01;31m[K [m[K   0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 |       [01;31m[K [m[K 0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:32:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 |         0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:28:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   28 |         0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t, [01;31m[K [m[K 0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 | [01;31m[K [m[K       -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |   [01;31m[K [m[K     -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |     [01;31m[K [m[K   -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |       [01;31m[K [m[K -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:27:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |         -sqrt2_2*kappa_t, [01;31m[K [m[K-sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |                           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |         -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t, [01;31m[K [m[Ksqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:29:64:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   29 |       -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t, [01;31m[K [m[Ksqrt2_2*kappa_t;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:31:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   31 | [01;31m[K [m[K   // 初始化增强矩阵
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:31:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   31 |   [01;31m[K [m[K // 初始化增强矩阵
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:32:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   32 | [01;31m[K [m[K   allocation_matrix_w_ << 0, 0, 1, 0, 0, 0; // 初始化假定垂直悬吊，绳子只给一个向上的力
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:32:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   32 |   [01;31m[K [m[K allocation_matrix_w_ << 0, 0, 1, 0, 0, 0; // 初始化假定垂直悬吊，绳子只给一个向上的力
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:33:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   33 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:33:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   33 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:34:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   34 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:34:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   34 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:36:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   36 | [01;31m[K [m[K   // // 使用加权伪逆，给yaw控制和姿态控制适当的权重
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:36:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   36 |   [01;31m[K [m[K // // 使用加权伪逆，给yaw控制和姿态控制适当的权重
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:37:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   37 | [01;31m[K [m[K   // // 方法1: 直接修改控制分配矩阵的相应行
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:37:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   37 |   [01;31m[K [m[K // // 方法1: 直接修改控制分配矩阵的相应行
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:38:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   38 | [01;31m[K [m[K   // Eigen::Matrix<double,6,4> allocation_matrix_weighted = allocation_matrix_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:38:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   38 |   [01;31m[K [m[K // Eigen::Matrix<double,6,4> allocation_matrix_weighted = allocation_matrix_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:39:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   39 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:39:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   39 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:40:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   40 | [01;31m[K [m[K   // allocation_matrix_weighted.row(0) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:40:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   40 |   [01;31m[K [m[K // allocation_matrix_weighted.row(0) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:41:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   41 | [01;31m[K [m[K   // allocation_matrix_weighted.row(1) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:41:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   41 |   [01;31m[K [m[K // allocation_matrix_weighted.row(1) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:42:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   42 | [01;31m[K [m[K   // allocation_matrix_weighted.row(2) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:42:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   42 |   [01;31m[K [m[K // allocation_matrix_weighted.row(2) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:43:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   43 | [01;31m[K [m[K   // // 姿态控制行（第4、5、6行：roll moment, pitch moment, yaw moment）
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:43:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   43 |   [01;31m[K [m[K // // 姿态控制行（第4、5、6行：roll moment, pitch moment, yaw moment）
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:44:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   44 | [01;31m[K [m[K   // allocation_matrix_weighted.row(3) *= attitude_weight_; // roll moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:44:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   44 |   [01;31m[K [m[K // allocation_matrix_weighted.row(3) *= attitude_weight_; // roll moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:45:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   45 | [01;31m[K [m[K   // allocation_matrix_weighted.row(4) *= attitude_weight_; // pitch moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:45:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   45 |   [01;31m[K [m[K // allocation_matrix_weighted.row(4) *= attitude_weight_; // pitch moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:46:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   46 | [01;31m[K [m[K   // allocation_matrix_weighted.row(5) *= attitude_weight_; // yaw moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:46:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   46 |   [01;31m[K [m[K // allocation_matrix_weighted.row(5) *= attitude_weight_; // yaw moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:47:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   47 | [01;31m[K [m[K   // allocation_matrix_weighted.row(5) *= yaw_weight_; // yaw moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:47:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   47 |   [01;31m[K [m[K // allocation_matrix_weighted.row(5) *= yaw_weight_; // yaw moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:48:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   48 | [01;31m[K [m[K   // // 计算加权后的伪逆
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:48:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   48 |   [01;31m[K [m[K // // 计算加权后的伪逆
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:49:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   49 | [01;31m[K [m[K   // mix_matrix_ = allocation_matrix_weighted.completeOrthogonalDecomposition().pseudoInverse();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:49:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   49 |   [01;31m[K [m[K // mix_matrix_ = allocation_matrix_weighted.completeOrthogonalDecomposition().pseudoInverse();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:51:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   51 | [01;31m[K [m[K   mix_matrix_ = allocation_matrix_.completeOrthogonalDecomposition().pseudoInverse();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:51:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   51 |   [01;31m[K [m[K mix_matrix_ = allocation_matrix_.completeOrthogonalDecomposition().pseudoInverse();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:52:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   52 | [01;31m[K [m[K   mix_matrix_.col(3) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:52:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   52 |   [01;31m[K [m[K mix_matrix_.col(3) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:53:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   53 | [01;31m[K [m[K   mix_matrix_.col(4) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:53:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   53 |   [01;31m[K [m[K mix_matrix_.col(4) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:54:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   54 | [01;31m[K [m[K   mix_matrix_.col(5) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:54:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   54 |   [01;31m[K [m[K mix_matrix_.col(5) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:55:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   55 | [01;31m[K [m[K   mix_matrix_.col(5) *= yaw_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:55:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   55 |   [01;31m[K [m[K mix_matrix_.col(5) *= yaw_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 | [01;31m[K [m[K                     double torque_coeff, double rpm_coeff, double thrust_coeff,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |   [01;31m[K [m[K                   double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |     [01;31m[K [m[K                 double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |       [01;31m[K [m[K               double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |         [01;31m[K [m[K             double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |           [01;31m[K [m[K           double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:13:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |             [01;31m[K [m[K         double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |               [01;31m[K [m[K       double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |                 [01;31m[K [m[K     double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |                   [01;31m[K [m[K   double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   59 |                     [01;31m[K [m[K double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 | [01;31m[K [m[K                     double yaw_weight, double attitude_weight, double thrust_weight)
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |   [01;31m[K [m[K                   double yaw_weight, double attitude_weight, double thrust_weight)
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |     [01;31m[K [m[K                 double yaw_weight, double attitude_weight, double thrust_weight)
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |       [01;31m[K [m[K               double yaw_weight, double attitude_weight, double thrust_weight)
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |         [01;31m[K [m[K             double yaw_weight, double attitude_weight, double thrust_weight)
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |           [01;31m[K [m[K           double yaw_weight, double attitude_weight, double thrust_weight)
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:13:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |             [01;31m[K [m[K         double yaw_weight, double attitude_weight, double thrust_weight)
+      |             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |               [01;31m[K [m[K       double yaw_weight, double attitude_weight, double thrust_weight)
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |                 [01;31m[K [m[K     double yaw_weight, double attitude_weight, double thrust_weight)
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |                   [01;31m[K [m[K   double yaw_weight, double attitude_weight, double thrust_weight)
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:60:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   60 |                     [01;31m[K [m[K double yaw_weight, double attitude_weight, double thrust_weight)
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:62:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   62 | [01;31m[K [m[K   thrust_arm_length_ = thrust_arm_length;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:62:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   62 |   [01;31m[K [m[K thrust_arm_length_ = thrust_arm_length;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:63:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   63 | [01;31m[K [m[K   gravity_arm_length_ = gravity_arm_length;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:63:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   63 |   [01;31m[K [m[K gravity_arm_length_ = gravity_arm_length;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:64:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   64 | [01;31m[K [m[K   torque_coeff_ = torque_coeff;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:64:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   64 |   [01;31m[K [m[K torque_coeff_ = torque_coeff;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:65:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   65 | [01;31m[K [m[K   rpm_coeff_ = rpm_coeff;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:65:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   65 |   [01;31m[K [m[K rpm_coeff_ = rpm_coeff;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:66:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   66 | [01;31m[K [m[K   thrust_coeff_ = thrust_coeff;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:66:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   66 |   [01;31m[K [m[K thrust_coeff_ = thrust_coeff;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:67:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   67 | [01;31m[K [m[K   yaw_weight_ = yaw_weight;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:67:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   67 |   [01;31m[K [m[K yaw_weight_ = yaw_weight;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:68:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   68 | [01;31m[K [m[K   attitude_weight_ = attitude_weight;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:68:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   68 |   [01;31m[K [m[K attitude_weight_ = attitude_weight;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:69:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   69 | [01;31m[K [m[K   thrust_weight_ = thrust_weight;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:69:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   69 |   [01;31m[K [m[K thrust_weight_ = thrust_weight;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:71:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   71 | [01;31m[K [m[K   // 重新计算控制矩阵
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:71:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   71 |   [01;31m[K [m[K // 重新计算控制矩阵
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:72:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   72 | [01;31m[K [m[K   double L_T = thrust_arm_length_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:72:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   72 |   [01;31m[K [m[K double L_T = thrust_arm_length_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:73:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   73 | [01;31m[K [m[K   double L_G = gravity_arm_length_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:73:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   73 |   [01;31m[K [m[K double L_G = gravity_arm_length_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:74:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   74 | [01;31m[K [m[K   double kappa_t = torque_coeff_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:74:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   74 |   [01;31m[K [m[K double kappa_t = torque_coeff_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:75:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   75 | [01;31m[K [m[K   double sqrt2_2 = std::sqrt(2.0) / 2.0;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:75:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   75 |   [01;31m[K [m[K double sqrt2_2 = std::sqrt(2.0) / 2.0;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:76:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   76 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:76:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   76 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:77:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   77 | [01;31m[K [m[K   allocation_matrix_ <<
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:77:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   77 |   [01;31m[K [m[K allocation_matrix_ <<
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 | [01;31m[K [m[K       -0.5,          0.5,          -0.5,           0.5,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |   [01;31m[K [m[K     -0.5,          0.5,          -0.5,           0.5,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |     [01;31m[K [m[K   -0.5,          0.5,          -0.5,           0.5,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |       [01;31m[K [m[K -0.5,          0.5,          -0.5,           0.5,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5, [01;31m[K [m[K        0.5,          -0.5,           0.5,
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,   [01;31m[K [m[K      0.5,          -0.5,           0.5,
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,     [01;31m[K [m[K    0.5,          -0.5,           0.5,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,       [01;31m[K [m[K  0.5,          -0.5,           0.5,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:23:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,         [01;31m[K [m[K0.5,          -0.5,           0.5,
+      |                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:29:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5, [01;31m[K [m[K        -0.5,           0.5,
+      |                             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:31:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,   [01;31m[K [m[K      -0.5,           0.5,
+      |                               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:33:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,     [01;31m[K [m[K    -0.5,           0.5,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,       [01;31m[K [m[K  -0.5,           0.5,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,         [01;31m[K [m[K-0.5,           0.5,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:44:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,          -0.5, [01;31m[K [m[K         0.5,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,          -0.5,   [01;31m[K [m[K       0.5,
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:48:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,          -0.5,     [01;31m[K [m[K     0.5,
+      |                                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:50:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,          -0.5,       [01;31m[K [m[K   0.5,
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:78:52:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   78 |         -0.5,          0.5,          -0.5,         [01;31m[K [m[K 0.5,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 | [01;31m[K [m[K        0.5,         -0.5,          -0.5,           0.5,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |   [01;31m[K [m[K      0.5,         -0.5,          -0.5,           0.5,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |     [01;31m[K [m[K    0.5,         -0.5,          -0.5,           0.5,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |       [01;31m[K [m[K  0.5,         -0.5,          -0.5,           0.5,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |         [01;31m[K [m[K0.5,         -0.5,          -0.5,           0.5,
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:15:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5, [01;31m[K [m[K       -0.5,          -0.5,           0.5,
+      |               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:17:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,   [01;31m[K [m[K     -0.5,          -0.5,           0.5,
+      |                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,     [01;31m[K [m[K   -0.5,          -0.5,           0.5,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,       [01;31m[K [m[K -0.5,          -0.5,           0.5,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:29:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5, [01;31m[K [m[K        -0.5,           0.5,
+      |                             [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:31:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,   [01;31m[K [m[K      -0.5,           0.5,
+      |                               [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:33:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,     [01;31m[K [m[K    -0.5,           0.5,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,       [01;31m[K [m[K  -0.5,           0.5,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,         [01;31m[K [m[K-0.5,           0.5,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:44:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,          -0.5, [01;31m[K [m[K         0.5,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,          -0.5,   [01;31m[K [m[K       0.5,
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:48:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,          -0.5,     [01;31m[K [m[K     0.5,
+      |                                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:50:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,          -0.5,       [01;31m[K [m[K   0.5,
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:79:52:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   79 |          0.5,         -0.5,          -0.5,         [01;31m[K [m[K 0.5,
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 | [01;31m[K [m[K       -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |   [01;31m[K [m[K     -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |     [01;31m[K [m[K   -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |       [01;31m[K [m[K -sqrt2_2,       -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:19:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2, [01;31m[K [m[K     -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:21:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,   [01;31m[K [m[K   -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:23:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,     [01;31m[K [m[K -sqrt2_2,       -sqrt2_2,        -sqrt2_2,
+      |                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:35:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2, [01;31m[K [m[K     -sqrt2_2,        -sqrt2_2,
+      |                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:37:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,   [01;31m[K [m[K   -sqrt2_2,        -sqrt2_2,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:39:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,     [01;31m[K [m[K -sqrt2_2,        -sqrt2_2,
+      |                                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:51:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2, [01;31m[K [m[K      -sqrt2_2,
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:53:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,   [01;31m[K [m[K    -sqrt2_2,
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:55:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,     [01;31m[K [m[K  -sqrt2_2,
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:80:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   80 |         -sqrt2_2,       -sqrt2_2,       -sqrt2_2,       [01;31m[K [m[K-sqrt2_2,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 | [01;31m[K [m[K       0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 |   [01;31m[K [m[K     0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 |     [01;31m[K [m[K   0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 |       [01;31m[K [m[K 0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:32:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 |         0.5*L_T - 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 |         0.5*L_T - 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T + 0.5*kappa_t,  0.5*L_T - 0.5*kappa_t,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:81:82:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   81 | 5*kappa_t,  -0.5*L_T + 0.5*kappa_t,  -0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K0.5*L_T - 0.5*kappa_t,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 | [01;31m[K [m[K       0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 |   [01;31m[K [m[K     0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 |     [01;31m[K [m[K   0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 |       [01;31m[K [m[K 0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:32:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 |         0.5*L_T + 0.5*kappa_t, [01;31m[K [m[K-0.5*L_T - 0.5*kappa_t,   0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |                                [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:82:57:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   82 |         0.5*L_T + 0.5*kappa_t,  -0.5*L_T - 0.5*kappa_t, [01;31m[K [m[K 0.5*L_T + 0.5*kappa_t, -0.5*L_T - 0.5*kappa_t,
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 | [01;31m[K [m[K       -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |   [01;31m[K [m[K     -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |     [01;31m[K [m[K   -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |       [01;31m[K [m[K -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:27:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |         -sqrt2_2*kappa_t, [01;31m[K [m[K-sqrt2_2*kappa_t,  sqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |                           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:46:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |         -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t, [01;31m[K [m[Ksqrt2_2*kappa_t,  sqrt2_2*kappa_t;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:83:64:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   83 |       -sqrt2_2*kappa_t,  -sqrt2_2*kappa_t,  sqrt2_2*kappa_t, [01;31m[K [m[Ksqrt2_2*kappa_t;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:84:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   84 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:84:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   84 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:85:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   85 | [01;31m[K [m[K   // 更新增强矩阵
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:85:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   85 |   [01;31m[K [m[K // 更新增强矩阵
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:86:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   86 | [01;31m[K [m[K   allocation_matrix_w_ << 0, 0, 1, 0, 0, 0; // 初始化假定垂直悬吊，绳子只给一个向上的力
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:86:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   86 |   [01;31m[K [m[K allocation_matrix_w_ << 0, 0, 1, 0, 0, 0; // 初始化假定垂直悬吊，绳子只给一个向上的力
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:87:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   87 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:87:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   87 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:88:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   88 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:88:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   88 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:89:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   89 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:89:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   89 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:91:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   91 | [01;31m[K [m[K   // // 使用加权伪逆，给yaw控制和姿态控制适当的权重
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:91:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   91 |   [01;31m[K [m[K // // 使用加权伪逆，给yaw控制和姿态控制适当的权重
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:92:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   92 | [01;31m[K [m[K   // // 方法1: 直接修改控制分配矩阵的相应行
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:92:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   92 |   [01;31m[K [m[K // // 方法1: 直接修改控制分配矩阵的相应行
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:93:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   93 | [01;31m[K [m[K   // Eigen::Matrix<double,6,4> allocation_matrix_weighted = allocation_matrix_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:93:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   93 |   [01;31m[K [m[K // Eigen::Matrix<double,6,4> allocation_matrix_weighted = allocation_matrix_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:94:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   94 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:94:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   94 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:95:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   95 | [01;31m[K [m[K   // allocation_matrix_weighted.row(0) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:95:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   95 |   [01;31m[K [m[K // allocation_matrix_weighted.row(0) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:96:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   96 | [01;31m[K [m[K   // allocation_matrix_weighted.row(1) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:96:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   96 |   [01;31m[K [m[K // allocation_matrix_weighted.row(1) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:97:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   97 | [01;31m[K [m[K   // allocation_matrix_weighted.row(2) *= thrust_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:97:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   97 |   [01;31m[K [m[K // allocation_matrix_weighted.row(2) *= thrust_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:98:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   98 | [01;31m[K [m[K   // // 姿态控制行（第4、5、6行：roll moment, pitch moment, yaw moment）
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:98:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   98 |   [01;31m[K [m[K // // 姿态控制行（第4、5、6行：roll moment, pitch moment, yaw moment）
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:99:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   99 | [01;31m[K [m[K   // allocation_matrix_weighted.row(3) *= attitude_weight_; // roll moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:99:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+   99 |   [01;31m[K [m[K // allocation_matrix_weighted.row(3) *= attitude_weight_; // roll moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:100:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  100 | [01;31m[K [m[K   // allocation_matrix_weighted.row(4) *= attitude_weight_; // pitch moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:100:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  100 |   [01;31m[K [m[K // allocation_matrix_weighted.row(4) *= attitude_weight_; // pitch moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:101:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  101 | [01;31m[K [m[K   // allocation_matrix_weighted.row(5) *= attitude_weight_; // yaw moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:101:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  101 |   [01;31m[K [m[K // allocation_matrix_weighted.row(5) *= attitude_weight_; // yaw moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:102:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  102 | [01;31m[K [m[K   // allocation_matrix_weighted.row(5) *= yaw_weight_; // yaw moment
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:102:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  102 |   [01;31m[K [m[K // allocation_matrix_weighted.row(5) *= yaw_weight_; // yaw moment
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:103:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  103 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:103:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  103 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:104:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  104 | [01;31m[K [m[K   cout<<"yaw_weight_:"<<yaw_weight_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:104:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  104 |   [01;31m[K [m[K cout<<"yaw_weight_:"<<yaw_weight_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:105:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  105 | [01;31m[K [m[K   cout<<"attitude_weight_:"<<attitude_weight_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:105:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  105 |   [01;31m[K [m[K cout<<"attitude_weight_:"<<attitude_weight_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:106:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  106 | [01;31m[K [m[K   cout<<"allocation_matrix_:"<<endl<<allocation_matrix_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:106:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  106 |   [01;31m[K [m[K cout<<"allocation_matrix_:"<<endl<<allocation_matrix_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:107:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  107 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:107:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  107 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:108:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  108 | [01;31m[K [m[K   // 计算加权后的伪逆
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:108:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  108 |   [01;31m[K [m[K // 计算加权后的伪逆
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:109:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  109 | [01;31m[K [m[K   mix_matrix_ = allocation_matrix_.completeOrthogonalDecomposition().pseudoInverse();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:109:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  109 |   [01;31m[K [m[K mix_matrix_ = allocation_matrix_.completeOrthogonalDecomposition().pseudoInverse();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:110:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  110 | [01;31m[K [m[K   cout<<"mix_matrix_:"<<endl<<mix_matrix_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:110:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  110 |   [01;31m[K [m[K cout<<"mix_matrix_:"<<endl<<mix_matrix_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:111:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  111 | [01;31m[K [m[K   mix_matrix_.col(3) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:111:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  111 |   [01;31m[K [m[K mix_matrix_.col(3) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:112:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  112 | [01;31m[K [m[K   mix_matrix_.col(4) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:112:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  112 |   [01;31m[K [m[K mix_matrix_.col(4) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:113:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  113 | [01;31m[K [m[K   mix_matrix_.col(5) *= attitude_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:113:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  113 |   [01;31m[K [m[K mix_matrix_.col(5) *= attitude_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:114:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  114 | [01;31m[K [m[K   mix_matrix_.col(5) *= yaw_weight_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:114:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  114 |   [01;31m[K [m[K mix_matrix_.col(5) *= yaw_weight_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:115:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  115 | [01;31m[K [m[K   cout<<"weighted mix_matrix_:"<<endl<<mix_matrix_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:115:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  115 |   [01;31m[K [m[K cout<<"weighted mix_matrix_:"<<endl<<mix_matrix_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:116:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  116 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:116:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  116 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:117:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  117 | [01;31m[K [m[K   mix_matrix_enhanced_ = allocation_matrix_enhanced_.completeOrthogonalDecomposition().pseudoInverse();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:117:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  117 |   [01;31m[K [m[K mix_matrix_enhanced_ = allocation_matrix_enhanced_.completeOrthogonalDecomposition().pseudoInverse();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:118:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  118 | [01;31m[K [m[K  
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:118:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  118 |   [01;31m[K [m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:119:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  119 | [01;31m[K [m[K   param_set_flag_ = true;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:119:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  119 |   [01;31m[K [m[K param_set_flag_ = true;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:120:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  120 | [01;31m[K [m[K   std::cout << "Mixer parameters set successfully" << std::endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:120:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  120 |   [01;31m[K [m[K std::cout << "Mixer parameters set successfully" << std::endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:125:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  125 | [01;31m[K [m[K   update_enhanced_matrix(R_bt);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:125:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  125 |   [01;31m[K [m[K update_enhanced_matrix(R_bt);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:126:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  126 | [01;31m[K [m[K   update_ft_bodyframe(ft_bodyframe);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:126:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  126 |   [01;31m[K [m[K update_ft_bodyframe(ft_bodyframe);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:132:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  132 | [01;31m[K [m[K   R_bt_ = R_bt;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:132:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  132 |   [01;31m[K [m[K R_bt_ = R_bt;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:134:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  134 | [01;31m[K [m[K   // 计算 R_bt * z
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:134:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  134 |   [01;31m[K [m[K // 计算 R_bt * z
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:135:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  135 | [01;31m[K [m[K   Eigen::Vector3d z_axis(0, 0, 1);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:135:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  135 |   [01;31m[K [m[K Eigen::Vector3d z_axis(0, 0, 1);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:136:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  136 | [01;31m[K [m[K   Eigen::Vector3d Rbt_z = R_bt * z_axis;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:136:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  136 |   [01;31m[K [m[K Eigen::Vector3d Rbt_z = R_bt * z_axis;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:138:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  138 | [01;31m[K [m[K   // 计算 -l_G x (R_bt * z)
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:138:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  138 |   [01;31m[K [m[K // 计算 -l_G x (R_bt * z)
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:139:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  139 | [01;31m[K [m[K   Eigen::Vector3d L_G_vec(0, 0, gravity_arm_length_); // 重力臂长度向量
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:139:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  139 |   [01;31m[K [m[K Eigen::Vector3d L_G_vec(0, 0, gravity_arm_length_); // 重力臂长度向量
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:141:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  141 | [01;31m[K [m[K   // 构造 allocation_matrix_w_
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:141:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  141 |   [01;31m[K [m[K // 构造 allocation_matrix_w_
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:142:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  142 | [01;31m[K [m[K   allocation_matrix_w_.block<3, 1> (0, 0) = Rbt_z;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:142:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  142 |   [01;31m[K [m[K allocation_matrix_w_.block<3, 1> (0, 0) = Rbt_z;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:143:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  143 | [01;31m[K [m[K   allocation_matrix_w_.block<3, 1> (3, 0) = L_G_vec.cross(Rbt_z);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:143:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  143 |   [01;31m[K [m[K allocation_matrix_w_.block<3, 1> (3, 0) = L_G_vec.cross(Rbt_z);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:145:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  145 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:145:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  145 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:146:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  146 | [01;31m[K [m[K   allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:146:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  146 |   [01;31m[K [m[K allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:148:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  148 | [01;31m[K [m[K   mix_matrix_enhanced_ = allocation_matrix_enhanced_.completeOrthogonalDecomposition().pseudoInverse();
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:148:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  148 |   [01;31m[K [m[K mix_matrix_enhanced_ = allocation_matrix_enhanced_.completeOrthogonalDecomposition().pseudoInverse();
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:150:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  150 | [01;31m[K [m[K   // cout<<"allocation_matrix_enhanced_"<<endl<<allocation_matrix_enhanced_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:150:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  150 |   [01;31m[K [m[K // cout<<"allocation_matrix_enhanced_"<<endl<<allocation_matrix_enhanced_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:151:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  151 | [01;31m[K [m[K   // cout<<"mix_matrix_enhanced_"<<endl<<mix_matrix_enhanced_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:151:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  151 |   [01;31m[K [m[K // cout<<"mix_matrix_enhanced_"<<endl<<mix_matrix_enhanced_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:156:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  156 | [01;31m[K [m[K   ft_bodyframe_ = ft_bodyframe;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:156:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  156 |   [01;31m[K [m[K ft_bodyframe_ = ft_bodyframe;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:161:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  161 | [01;31m[K [m[K   return mix_matrix_ * u;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:161:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  161 |   [01;31m[K [m[K return mix_matrix_ * u;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:166:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  166 | [01;31m[K [m[K   cout<<"mix_matrix_enhanced_:"<<endl<<mix_matrix_enhanced_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:166:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  166 |   [01;31m[K [m[K cout<<"mix_matrix_enhanced_:"<<endl<<mix_matrix_enhanced_<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  167 | [01;31m[K [m[K   cout<<"allocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl;    
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  167 |   [01;31m[K [m[K cout<<"allocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl;    
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:82:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  167 | llocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl; [01;31m[K [m[K  
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:84:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  167 | llocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl;   [01;31m[K [m[K
+      |                                                                        [01;31m[K^[m[K
+
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:168:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  168 | [01;31m[K [m[K   return mix_matrix_enhanced_ * u;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:168:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  168 |   [01;31m[K [m[K return mix_matrix_enhanced_ * u;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:173:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  173 | [01;31m[K [m[K   return allocation_matrix_ * motors_thrust;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:173:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  173 |   [01;31m[K [m[K return allocation_matrix_ * motors_thrust;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:178:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  178 | [01;31m[K [m[K   Eigen::Matrix<double,5,1> extended_input;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:178:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  178 |   [01;31m[K [m[K Eigen::Matrix<double,5,1> extended_input;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:179:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  179 | [01;31m[K [m[K   extended_input << motors_thrust, w;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:179:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  179 |   [01;31m[K [m[K extended_input << motors_thrust, w;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:180:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  180 | [01;31m[K [m[K   return allocation_matrix_enhanced_ * extended_input;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:180:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  180 |   [01;31m[K [m[K return allocation_matrix_enhanced_ * extended_input;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:185:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  185 | [01;31m[K [m[K   Eigen::Matrix<double,4,1> thrust;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:185:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  185 |   [01;31m[K [m[K Eigen::Matrix<double,4,1> thrust;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:186:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  186 | [01;31m[K [m[K   for (int i = 0; i < 4; ++i) {
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:186:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  186 |   [01;31m[K [m[K for (int i = 0; i < 4; ++i) {
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:187:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  187 | [01;31m[K [m[K       thrust(i) = thrust_coeff_ * throttle(i) * throttle(i);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:187:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  187 |   [01;31m[K [m[K     thrust(i) = thrust_coeff_ * throttle(i) * throttle(i);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:187:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  187 |     [01;31m[K [m[K   thrust(i) = thrust_coeff_ * throttle(i) * throttle(i);
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:187:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  187 |       [01;31m[K [m[K thrust(i) = thrust_coeff_ * throttle(i) * throttle(i);
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:188:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  188 | [01;31m[K [m[K   }
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:188:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  188 |   [01;31m[K [m[K }
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:189:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  189 | [01;31m[K [m[K   return thrust;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:189:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  189 |   [01;31m[K [m[K return thrust;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:194:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  194 | [01;31m[K [m[K   Eigen::Matrix<double,4,1> throttle;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:194:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  194 |   [01;31m[K [m[K Eigen::Matrix<double,4,1> throttle;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:195:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  195 | [01;31m[K [m[K   double threshold = 0.3;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:195:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  195 |   [01;31m[K [m[K double threshold = 0.3;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:196:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  196 | [01;31m[K [m[K   for (int i = 0; i < 4; ++i) {
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:196:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  196 |   [01;31m[K [m[K for (int i = 0; i < 4; ++i) {
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:197:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  197 | [01;31m[K [m[K       if (thrust(i) > 0) {
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:197:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  197 |   [01;31m[K [m[K     if (thrust(i) > 0) {
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:197:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  197 |     [01;31m[K [m[K   if (thrust(i) > 0) {
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:197:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  197 |       [01;31m[K [m[K if (thrust(i) > 0) {
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 | [01;31m[K [m[K           throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 |   [01;31m[K [m[K         throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 |     [01;31m[K [m[K       throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 |       [01;31m[K [m[K     throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 |         [01;31m[K [m[K   throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:198:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  198 |           [01;31m[K [m[K throttle(i) = sqrt(thrust(i) / thrust_coeff_);
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:199:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  199 | [01;31m[K [m[K       } else {
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:199:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  199 |   [01;31m[K [m[K     } else {
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:199:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  199 |     [01;31m[K [m[K   } else {
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:199:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  199 |       [01;31m[K [m[K } else {
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 | [01;31m[K [m[K           throttle(i) = 0;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 |   [01;31m[K [m[K         throttle(i) = 0;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 |     [01;31m[K [m[K       throttle(i) = 0;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 |       [01;31m[K [m[K     throttle(i) = 0;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 |         [01;31m[K [m[K   throttle(i) = 0;
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:200:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  200 |           [01;31m[K [m[K throttle(i) = 0;
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:201:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  201 | [01;31m[K [m[K       }
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:201:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  201 |   [01;31m[K [m[K     }
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:201:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  201 |     [01;31m[K [m[K   }
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:201:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  201 |       [01;31m[K [m[K }
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:203:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  203 | [01;31m[K [m[K       // cout<<"oringinal throttle: "<<throttle(i)<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:203:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  203 |   [01;31m[K [m[K     // cout<<"oringinal throttle: "<<throttle(i)<<endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:203:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  203 |     [01;31m[K [m[K   // cout<<"oringinal throttle: "<<throttle(i)<<endl;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:203:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  203 |       [01;31m[K [m[K // cout<<"oringinal throttle: "<<throttle(i)<<endl;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:205:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  205 | [01;31m[K [m[K       if (throttle(i) > threshold) {
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:205:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  205 |   [01;31m[K [m[K     if (throttle(i) > threshold) {
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:205:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  205 |     [01;31m[K [m[K   if (throttle(i) > threshold) {
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:205:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  205 |       [01;31m[K [m[K if (throttle(i) > threshold) {
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 | [01;31m[K [m[K           throttle(i) = threshold;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 |   [01;31m[K [m[K         throttle(i) = threshold;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 |     [01;31m[K [m[K       throttle(i) = threshold;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 |       [01;31m[K [m[K     throttle(i) = threshold;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 |         [01;31m[K [m[K   throttle(i) = threshold;
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:206:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  206 |           [01;31m[K [m[K throttle(i) = threshold;
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 | [01;31m[K [m[K           // std::cout << "throttle is too large" << std::endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 |   [01;31m[K [m[K         // std::cout << "throttle is too large" << std::endl;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 |     [01;31m[K [m[K       // std::cout << "throttle is too large" << std::endl;
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 |       [01;31m[K [m[K     // std::cout << "throttle is too large" << std::endl;
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 |         [01;31m[K [m[K   // std::cout << "throttle is too large" << std::endl;
+      |         [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:207:11:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  207 |           [01;31m[K [m[K // std::cout << "throttle is too large" << std::endl;
+      |           [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:208:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  208 | [01;31m[K [m[K       }
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:208:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  208 |   [01;31m[K [m[K     }
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:208:5:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  208 |     [01;31m[K [m[K   }
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:208:7:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  208 |       [01;31m[K [m[K }
+      |       [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:209:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  209 | [01;31m[K [m[K   }
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:209:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  209 |   [01;31m[K [m[K }
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:210:1:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  210 | [01;31m[K [m[K   return throttle;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:210:3:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+  210 |   [01;31m[K [m[K return throttle;
+      |   [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In constructor ‘[01m[KMixer::Mixer()[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+    5 | [01;31m[K [m[K   // 初始化参数为默认值
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:7:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+    7 |  [01;31m[K [m[K[32m[K [m[K thrust_arm_length_ = 0.2;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:8:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+    8 |  [01;31m[K [m[K[32m[K [m[K gravity_arm_length_ = 0.2;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:9:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+    9 |  [01;31m[K [m[K[32m[K [m[K torque_coeff_ = 0.01;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   10 |  [01;31m[K [m[K[32m[K [m[K rpm_coeff_ = 0.01;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:11:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   11 |  [01;31m[K [m[K[32m[K [m[K thrust_coeff_ = 0.01;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:12:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   12 |  [01;31m[K [m[K[32m[K [m[K yaw_weight_ = 1.0; // 默认yaw权重为1.0
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:13:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   13 |  [01;31m[K [m[K[32m[K [m[K attitude_weight_ = 1.0; // 默认姿态权重为1.0
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:14:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   14 |  [01;31m[K [m[K[32m[K [m[K thrust_weight_ = 1.0; // 默认推力权重为1.0
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:16:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   16 |  [01;31m[K [m[K[32m[K [m[K // 使用默认参数构控制矩阵
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:18:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   18 |  [01;31m[K [m[K[32m[K [m[K double L_G = gravity_arm_length_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:19:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   19 |  [01;31m[K [m[K[32m[K [m[K double kappa_t = torque_coeff_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   20 |  [01;31m[K [m[K[32m[K [m[K double sqrt2_2 = std::sqrt(2.0) / 2.0;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:21:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   21 |  [01;31m[K [m[K[32m[K [m[K
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   23 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_ <<
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   31 |  [01;31m[K [m[K[32m[K [m[K // 初始化增强矩阵
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:33:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   33 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:34:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   34 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   36 |  [01;31m[K [m[K[32m[K [m[K // // 使用加权伪逆，给yaw控制和姿态控制适当的权重
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:52:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   52 |  [01;31m[K [m[K[32m[K [m[K mix_matrix_.col(3) *= attitude_weight_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:53:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   53 |  [01;31m[K [m[K[32m[K [m[K mix_matrix_.col(4) *= attitude_weight_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:54:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   54 |  [01;31m[K [m[K[32m[K [m[K mix_matrix_.col(5) *= attitude_weight_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+   55 |  [01;31m[K [m[K[32m[K [m[K mix_matrix_.col(5) *= yaw_weight_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K At global scope:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ has not been declared
+   59 | [01;31m[K [m[K                     double torque_coeff, double rpm_coeff, double thrust_coeff,
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K [m[K’
+   59 |     [01;31m[K [m[K                 double torque_coeff, double rpm_coeff, double thrust_coeff,
+      |     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:58:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Mixer::set_params(double, double, int)[m[K’
+   58 | void [01;31m[KMixer[m[K::set_params(double thrust_arm_length, double gravity_arm_length,
+      |      [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:1[m[K:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:15:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Mixer::set_params(double, double, double, double, double, double, double, double)[m[K’
+   15 |     void [01;36m[Kset_params[m[K(double thrust_arm_length, double gravity_arm_length,
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Mixer[m[K’ defined here
+    9 | class [01;36m[KMixer[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[Kvoid Mixer::update_parameters(const Matrix3d&, const Vector3d&)[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:125:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  125 | [01;31m[K [m[K   update_enhanced_matrix(R_bt);
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:126:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  126 |  [01;31m[K [m[K[32m[K [m[K update_ft_bodyframe(ft_bodyframe);
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[Kvoid Mixer::update_enhanced_matrix(const Matrix3d&)[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:132:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  132 | [01;31m[K [m[K   R_bt_ = R_bt;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:134:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  134 |  [01;31m[K [m[K[32m[K [m[K // 计算 R_bt * z
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:136:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  136 |  [01;31m[K [m[K[32m[K [m[K Eigen::Vector3d Rbt_z = R_bt * z_axis;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:138:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  138 |  [01;31m[K [m[K[32m[K [m[K // 计算 -l_G x (R_bt * z)
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:141:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  141 |  [01;31m[K [m[K[32m[K [m[K // 构造 allocation_matrix_w_
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:143:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  143 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_w_.block<3, 1> (3, 0) = L_G_vec.cross(Rbt_z);
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:145:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  145 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_enhanced_.block<6, 4> (0, 0) = allocation_matrix_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:146:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  146 |  [01;31m[K [m[K[32m[K [m[K allocation_matrix_enhanced_.block<6, 1> (0, 4) = allocation_matrix_w_;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:148:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  148 |  [01;31m[K [m[K[32m[K [m[K mix_matrix_enhanced_ = allocation_matrix_enhanced_.completeOrthogonalDecomposition().pseudoInverse();
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:150:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  150 |  [01;31m[K [m[K[32m[K [m[K // cout<<"allocation_matrix_enhanced_"<<endl<<allocation_matrix_enhanced_<<endl;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[Kvoid Mixer::update_ft_bodyframe(const Vector3d&)[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:156:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  156 | [01;31m[K [m[K   ft_bodyframe_ = ft_bodyframe;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 4, 1> Mixer::mix(const Eigen::Matrix<double, 6, 1>&) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:161:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  161 | [01;31m[K [m[K   return mix_matrix_ * u;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:162:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  162 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 5, 1> Mixer::mix_enhanced(const Eigen::Matrix<double, 6, 1>&) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:166:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  166 | [01;31m[K [m[K   cout<<"mix_matrix_enhanced_:"<<endl<<mix_matrix_enhanced_<<endl;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  167 |  [01;31m[K [m[K[32m[K [m[K cout<<"allocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl;    
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:167:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  167 | llocation_matrix_w_:"<<endl<<allocation_matrix_w_.transpose()<<endl;  [01;31m[K [m[K[32m[K [m[K
+      |                                                                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  169 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 6, 1> Mixer::control_allocation(const Eigen::Matrix<double, 4, 1>&) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:173:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  173 | [01;31m[K [m[K   return allocation_matrix_ * motors_thrust;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:174:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  174 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 6, 1> Mixer::control_allocation_enhanced(const Eigen::Matrix<double, 4, 1>&, double) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:178:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  178 | [01;31m[K [m[K   Eigen::Matrix<double,5,1> extended_input;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:179:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  179 |  [01;31m[K [m[K[32m[K [m[K extended_input << motors_thrust, w;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:180:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  180 |  [01;31m[K [m[K[32m[K [m[K return allocation_matrix_enhanced_ * extended_input;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:181:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  181 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 4, 1> Mixer::throttle2thrust(const Eigen::Matrix<double, 4, 1>&) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:185:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  185 | [01;31m[K [m[K   Eigen::Matrix<double,4,1> thrust;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:186:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  186 |  [01;31m[K [m[K[32m[K [m[K for (int i = 0; i < 4; ++i) {
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:186:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  186 |     for (int i = 0; [01;31m[Ki[m[K < 4; ++i) {
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:189:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  189 |  [01;31m[K [m[K[32m[K [m[K return thrust;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:190:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  190 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 4, 1> Mixer::thrust2throttle(const Eigen::Matrix<double, 4, 1>&) const[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:194:1:[m[K [01;31m[Kerror: [m[K‘[01m[K [m[K’ was not declared in this scope
+  194 | [01;31m[K [m[K   Eigen::Matrix<double,4,1> throttle;
+      | [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:195:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  195 |  [01;31m[K [m[K[32m[K [m[K double threshold = 0.3;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:196:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  196 |  [01;31m[K [m[K[32m[K [m[K for (int i = 0; i < 4; ++i) {
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:196:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  196 |     for (int i = 0; [01;31m[Ki[m[K < 4; ++i) {
+      |                     [01;31m[K^[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:210:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K [m[K’
+  210 |  [01;31m[K [m[K[32m[K [m[K return throttle;
+      |  [01;31m[K^[m[K[32m[K~[m[K
+      |  [32m[K;[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:211:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  211 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/aerogripper_control_lib.dir/build.make:76: CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/aerogripper_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

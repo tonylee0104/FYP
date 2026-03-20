@@ -1,0 +1,21 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o[0m
+[ 30%] Built target motor_test_node
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In constructor ‘[01m[KMixer::Mixer()[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktheta_deg[m[K’?
+   20 |     [01;31m[Ktheta_[m[K = theta_deg * M_PI / 180.0; // Convert degrees to radians
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktheta_deg[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K At global scope:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:53:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Mixer::set_params(double, double, double, double, double, double, double, double, double)[m[K’
+   53 | void [01;31m[KMixer[m[K::set_params(double thrust_arm_length, double gravity_arm_length,
+      |      [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:1[m[K:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:15:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Mixer::set_params(double, double, double, double, double, double, double, double)[m[K’
+   15 |     void [01;36m[Kset_params[m[K(double thrust_arm_length, double gravity_arm_length,
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/include/mixer.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Mixer[m[K’ defined here
+    9 | class [01;36m[KMixer[m[K
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/aerogripper_control_lib.dir/build.make:76: CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/aerogripper_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

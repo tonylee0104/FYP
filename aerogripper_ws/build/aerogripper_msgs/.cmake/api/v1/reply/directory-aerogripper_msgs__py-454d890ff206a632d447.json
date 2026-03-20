@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aerogripper_msgs__py",
+		"source" : "/home/fyp/FYP/aerogripper_ws/build/aerogripper_msgs/aerogripper_msgs__py"
+	}
+}

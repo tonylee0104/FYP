@@ -1,0 +1,7 @@
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:[m[K In member function ‘[01m[Kvoid Mixer::set_params(double, double, double, double, double, double, double, double)[m[K’:
+[01m[K/home/fyp/FYP/aerogripper_ws/src/aerogripper_control/src/mixer.cpp:86:4:[m[K [01;31m[Kerror: [m[Kwrong type argument to unary minus
+   86 |   -[01;31m[Ksin[m[K theta)*kappa_t, -sin theta)*kappa_t,  sin theta)*kappa_t,  sin theta)*kappa_t;
+      |    [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/aerogripper_control_lib.dir/build.make:76: CMakeFiles/aerogripper_control_lib.dir/src/mixer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/aerogripper_control_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
